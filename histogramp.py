@@ -15,9 +15,7 @@ def f3(lst):
         print("] ", per, "%", sep='')
 
 
-def main():
-
-    file = "test.txt"
+def main(file):
 
     dict = wordcount.f1(file)
 
@@ -26,4 +24,5 @@ def main():
     f3(lst)
 
 
-main()
+f = "test.txt"
+main(f)
